@@ -1,0 +1,59 @@
+{
+	"id": "2d18eae6-214b-ee11-9937-0022489a57c0",
+	"createdAt": "2023-09-04T12:52:29.453Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"fields": [
+		{
+			"id": "4c01720a-bb97-4a17-8839-7af4b8ce3f28",
+			"fieldName": "first_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "a205f00b-3e39-4bb2-ba8f-1848f215de75",
+			"fieldName": "last_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "30d7d6c5-d04a-4237-c0db-357fc305b7d7",
+			"fieldName": "plate_no",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": false
+		},
+		{
+			"id": "56e803a2-f62d-4ee0-d68e-f96f29f0996c",
+			"fieldName": "customer_name",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "d37f03ed-494c-417f-fcd8-3540ecfb1ced",
+			"fieldName": "customer_class",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "f55af661-53fa-4bf4-a2fa-705bb26da20f",
+			"fieldName": "driver_id",
+			"fieldType": "uuid",
+			"isUnique": false,
+			"isNullable": true
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"name": "truck_drivers_details",
+	"description": "List of Truck drivers on the queue",
+	"ver": "23.9.28.1444",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"rolesRead": [],
+	"rolesWrite": []
+}

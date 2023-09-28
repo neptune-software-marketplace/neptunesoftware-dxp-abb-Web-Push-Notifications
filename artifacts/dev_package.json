@@ -1,0 +1,136 @@
+{
+	"id": "ec25aec2-f55d-ee11-9937-0022489e2e97",
+	"createdAt": "2023-09-28T11:54:27.770Z",
+	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/Web-Push-Notifications.git"
+	},
+	"name": "Web Push Notification",
+	"description": null,
+	"ver": "23.9.28.137",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "8ec0cf1a-f65d-ee11-9937-0022489e2e97",
+			"application": "demo_webpush_driverapp",
+			"title": "",
+			"description": "Truck Drivers App"
+		},
+		{
+			"id": "75e8264f-f65d-ee11-9937-0022489e2e97",
+			"application": "demo_webpush_adminapp",
+			"title": "Admin App",
+			"description": "Admin App: Monitor facility usage"
+		}
+	],
+	"api": [
+		{
+			"id": "765bffe2-224b-ee11-9937-0022489a57c0",
+			"name": "API truck_drivers_details",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "443fc4a3-5742-ee11-b8f0-002248a2f7be",
+			"name": "Web Push Notification Script Apis",
+			"description": null,
+			"apiGroup": null
+		},
+		{
+			"id": "154b52b9-4e4d-ee11-9937-0022489a57c0",
+			"name": "API manage_facility_usage_admin",
+			"description": null,
+			"apiGroup": null
+		}
+	],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [
+		{
+			"id": "e2230bcc-4c58-ee11-9937-0022489a57c0",
+			"name": "push_subscription_register",
+			"description": "Contains push subscriptions of different users of the Push Notification Demo App"
+		},
+		{
+			"id": "2d9754a1-4e4d-ee11-9937-0022489a57c0",
+			"name": "manage_facility_usage_admin",
+			"description": "List of Truck drivers on the queue"
+		},
+		{
+			"id": "2d18eae6-214b-ee11-9937-0022489a57c0",
+			"name": "truck_drivers_details",
+			"description": "List of Truck drivers on the queue"
+		}
+	],
+	"jsclass": [
+		{
+			"id": "fa254557-6458-ee11-9937-0022489a57c0",
+			"name": "getPublicKey",
+			"description": null
+		},
+		{
+			"id": "96a44512-2f59-ee11-9937-0022489a57c0",
+			"name": "get_service_worker",
+			"description": null
+		},
+		{
+			"id": "570123e2-6658-ee11-9937-0022489a57c0",
+			"name": "save_subscription",
+			"description": null
+		},
+		{
+			"id": "240f0c96-3c59-ee11-9937-0022489a57c0",
+			"name": "notify_driver_webpush",
+			"description": null
+		}
+	],
+	"jsscript_group": [
+		{
+			"id": "a167598c-a442-ee11-b8f0-002248a2f7be",
+			"name": "push_notification_scripts",
+			"description": null
+		}
+	],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [
+		{
+			"id": "83b4aaec-1d52-ee11-9937-0022489a57c0",
+			"name": "NotifyDriverTrigger",
+			"description": "Trigger web push notification to driver app"
+		},
+		{
+			"id": "7a7ef4c4-1d52-ee11-9937-0022489a57c0",
+			"name": "DriverAppListener",
+			"description": "Listens to event to notify Truck drivers"
+		}
+	],
+	"media_library": [
+		{
+			"id": "9E433B87-3059-EE11-9937-0022489A57C0",
+			"updatedAt": "2023-09-28T12:31:35.890Z",
+			"name": "Push Notification",
+			"parent": "024D3798-8541-EE11-B8F0-002248A2F7BE",
+			"package": "EC25AEC2-F55D-EE11-9937-0022489E2E97"
+		}
+	],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}
