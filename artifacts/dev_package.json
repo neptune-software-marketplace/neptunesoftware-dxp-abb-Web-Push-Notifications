@@ -7,7 +7,7 @@
 	},
 	"name": "Web Push Notification",
 	"description": null,
-	"ver": "23.9.28.137",
+	"ver": "23.9.28.1336",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -99,7 +99,18 @@
 	"api_group": [],
 	"tile": [],
 	"category": [],
-	"launchpad": [],
+	"launchpad": [
+		{
+			"id": "96cd3d99-cf48-ee11-9937-0022489a57c0",
+			"name": "demo_push_notification_admin",
+			"description": null
+		},
+		{
+			"id": "89cd226e-a342-ee11-b8f0-002248a2f7be",
+			"name": "demo push notification",
+			"description": null
+		}
+	],
 	"certificates": [],
 	"role": [],
 	"systems": [],
