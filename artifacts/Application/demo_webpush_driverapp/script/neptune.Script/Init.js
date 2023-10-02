@@ -1,7 +1,7 @@
-// console.log(AppCache.userInfo)"5381816A-4C43-EE11-B8F0-002248A2F7BE"
+
 "use strict";
 var currentUserId = AppCache.userInfo.id;
-//console.log(AppCache.userInfo);
+
 
 const urlB64ToUint8Array = (base64String) => {
     const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
@@ -52,7 +52,7 @@ const getSubscription = async () => {
 
 const registerWorker = () => {
     navigator.serviceWorker
-        .register("/public/serverscript/testpushnotification/get_service_worker", { scope: "/" })
+        .register("/public/serverscript/webpushnotificationscriptapis/get_service_worker", { scope: "/" })
         .then((registration) => {
             //console.log(`ServiceWorker registration successful with scope: ${registration.scope}`);
             return registration.update();
@@ -75,12 +75,3 @@ if ("serviceWorker" in navigator) {
     }
 }
 
-//get user notification permission
-//askNotificationPermission();
-
-function handleData(payload) {
-    const data = payload.data;
-    console.log("Response data from script: ",data)
-
-    //createNotification()
-}
