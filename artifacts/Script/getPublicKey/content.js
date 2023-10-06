@@ -1,6 +1,10 @@
-result = {
+log.info("Pub Key Get")
+
+result.data = {
     pub_key:
-        "BPTboSyuD6Y6UWG2C5j9WVVUPTYgA_EBYScoXQwSEaj5JiK29-fAxRhx7LztV6yEuPe1yjbw9SRZEXp7QXTGMIo",
+        "BAG7o46AL58K1zBWa1YpoJWSgVhpfLATvkZAISuGFlT-y1Dz_4F1Q88EQ5_-rhXhzvnsj3tEXXtl0mmfD9m3HC0",
 };
+
+log.info(result)
 
 complete();

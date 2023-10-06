@@ -12,7 +12,7 @@
 	"script": {
 		"id": "240f0c96-3c59-ee11-9937-0022489a57c0",
 		"name": "notify_driver_webpush",
-		"ver": "23.9.28.1127"
+		"ver": "23.10.5.1621"
 	},
 	"job": null,
 	"workflow": null

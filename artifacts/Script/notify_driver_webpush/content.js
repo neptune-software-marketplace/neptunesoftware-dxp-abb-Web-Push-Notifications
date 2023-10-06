@@ -6,11 +6,11 @@ const eventResponse = {
     data: null,
 };
 
-// domo only! keys should be stored in a secure way outside of the code
+// DEMO ONLY! keys should be stored in a secure way outside of the code
 const vapidKeys = {
     publicKey:
-        "BPTboSyuD6Y6UWG2C5j9WVVUPTYgA_EBYScoXQwSEaj5JiK29-fAxRhx7LztV6yEuPe1yjbw9SRZEXp7QXTGMIo",
-    privateKey: "guMNfxxS1BgjI5-a5SHVM4wX8eWvvdAav8jEyG3mX3E",
+        "BAG7o46AL58K1zBWa1YpoJWSgVhpfLATvkZAISuGFlT-y1Dz_4F1Q88EQ5_-rhXhzvnsj3tEXXtl0mmfD9m3HC0",
+    privateKey: "buhss4dXKHKNcUexbwv2YKCWvK1YC8WAjGOSX2oByDg",
 };
 
 webpush.setVapidDetails(

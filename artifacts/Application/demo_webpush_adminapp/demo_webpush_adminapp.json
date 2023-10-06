@@ -127,6 +127,70 @@
 													"attributes": [],
 													"data": [
 														{
+															"fieldNo": "58e1ecce-c25f-4594-9799-28220f4dc8e0",
+															"fieldName": "ButtonNewUser1",
+															"fieldParent": "463e4bd0-cbd6-47a8-ffe1-a3c04d695253",
+															"fieldType": "nep.bootstrap.Button",
+															"script": "",
+															"customComponent": false,
+															"disabled": true,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "press",
+																	"grouping": "Events",
+																	"value": "Anonymous Function",
+																	"script": "file://event/nep.bootstrap.Button/ButtonNewUser1/press.js",
+																	"language": "javascript",
+																	"translation": []
+																},
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Add new User",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "textColor",
+																	"grouping": "Properties",
+																	"value": "Primary",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "borderColor",
+																	"grouping": "Properties",
+																	"value": "Primary",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "borderRadius",
+																	"grouping": "Properties",
+																	"value": "RoundedPill",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "width",
+																	"grouping": "Properties",
+																	"value": "100%",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "contextColor",
+																	"grouping": "Properties",
+																	"value": "Light",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
 															"fieldNo": "1a56bb89-557d-4d80-d880-0308b49f085e",
 															"fieldName": "ButtonRegister",
 															"fieldParent": "463e4bd0-cbd6-47a8-ffe1-a3c04d695253",
@@ -314,6 +378,77 @@
 															"attribute": "type",
 															"grouping": "Properties",
 															"value": "Heading5",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "7a0d53a1-ece4-4b20-ecf3-7b07ccaa3fe0",
+													"fieldName": "ButtonRefreshBootstrap",
+													"fieldParent": "9d5178c0-2e2a-49a5-bb8a-a3fd9ec1ddad",
+													"fieldType": "nep.bootstrap.Button",
+													"script": "",
+													"customComponent": false,
+													"disabled": true,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/nep.bootstrap.Button/ButtonRefreshBootstrap/press.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Refresh",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "margin",
+															"grouping": "Properties",
+															"value": "Margin2",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "textColor",
+															"grouping": "Properties",
+															"value": "Primary",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "borderColor",
+															"grouping": "Properties",
+															"value": "Primary",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "borderRadius",
+															"grouping": "Properties",
+															"value": "RoundedPill",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "width",
+															"grouping": "Properties",
+															"value": "100%",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "contextColor",
+															"grouping": "Properties",
+															"value": "Light",
 															"script": "",
 															"translation": []
 														}
@@ -564,6 +699,7 @@
 																			"fieldType": "nep.bootstrap.Button",
 																			"script": "",
 																			"customComponent": false,
+																			"disabled": true,
 																			"request": [],
 																			"response": [],
 																			"attributes": [
@@ -659,6 +795,33 @@
 															]
 														}
 													]
+												},
+												{
+													"fieldNo": "2e162b81-8ec6-4b95-9ca0-c598285581e9",
+													"fieldName": "ButtonRefresh",
+													"fieldParent": "9d5178c0-2e2a-49a5-bb8a-a3fd9ec1ddad",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "icon",
+															"grouping": "Properties",
+															"value": "sap-icon://refresh",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/ButtonRefresh/press.script",
+															"translation": []
+														}
+													],
+													"data": []
 												}
 											]
 										}
@@ -701,35 +864,7 @@
 													"translation": []
 												}
 											],
-											"data": [
-												{
-													"fieldNo": "2e162b81-8ec6-4b95-9ca0-c598285581e9",
-													"fieldName": "ButtonRefresh",
-													"fieldParent": "6",
-													"fieldType": "sap.m.Button",
-													"script": "",
-													"customComponent": false,
-													"request": [],
-													"response": [],
-													"attributes": [
-														{
-															"attribute": "icon",
-															"grouping": "Properties",
-															"value": "sap-icon://refresh",
-															"script": "",
-															"translation": []
-														},
-														{
-															"attribute": "press",
-															"grouping": "Events",
-															"value": "Anonymous Function",
-															"script": "file://event/sap.m.Button/ButtonRefresh/press.script",
-															"translation": []
-														}
-													],
-													"data": []
-												}
-											]
+											"data": []
 										},
 										{
 											"fieldNo": "7",
@@ -813,6 +948,34 @@
 					"response": [],
 					"attributes": [],
 					"data": [
+						{
+							"fieldNo": "e927b763-d1ef-41e1-e0a8-a48ca607ac65",
+							"fieldName": "oAPICreateNewUser",
+							"fieldParent": "d104e232-58a0-479a-9392-4cccd3883c1e",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "765bffe2-224b-ee11-9937-0022489a57c0",
+							"restOperation": "d19b030c-94e3-488d-828a-d86915bab7a9",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "3fab67c9-ac37-4809-ef16-2703459771c7",
+							"fieldName": "oAPIUpdateDriverDetails",
+							"fieldParent": "d104e232-58a0-479a-9392-4cccd3883c1e",
+							"fieldType": "neptune.restapi",
+							"script": "",
+							"customComponent": false,
+							"restSource": "765bffe2-224b-ee11-9937-0022489a57c0",
+							"restOperation": "348a65b0-317c-4efd-829f-dd759e06ecdc",
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
 						{
 							"fieldNo": "0d187362-f976-49cc-859b-8d1c96f8f5ba",
 							"fieldName": "oAPIRegisterDriver",
@@ -906,6 +1069,468 @@
 					"response": [],
 					"attributes": [],
 					"data": [
+						{
+							"fieldNo": "11f48c74-7abc-49c5-ed85-0a917c49f7f1",
+							"fieldName": "ModalCreateUser",
+							"fieldParent": "12bce9b2-ca51-4e84-b630-aa915d38ce27",
+							"fieldType": "nep.bootstrap.Modal",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": [
+								{
+									"fieldNo": "d6006110-6d9a-4c5c-8c7b-26c0a0301abb",
+									"fieldName": "Header",
+									"fieldParent": "11f48c74-7abc-49c5-ed85-0a917c49f7f1",
+									"fieldType": "nep.bootstrap.ModalContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Properties",
+											"value": "Header",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "7fb1506f-ab40-4ef6-8c15-696f7571a362",
+											"fieldName": "Text8",
+											"fieldParent": "d6006110-6d9a-4c5c-8c7b-26c0a0301abb",
+											"fieldType": "nep.bootstrap.Text",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Add New User",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								},
+								{
+									"fieldNo": "acac7cd9-6884-4a85-9179-078009bbc268",
+									"fieldName": "Content",
+									"fieldParent": "11f48c74-7abc-49c5-ed85-0a917c49f7f1",
+									"fieldType": "nep.bootstrap.ModalContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Properties",
+											"value": "Content",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+											"fieldName": "SimpleForm",
+											"fieldParent": "acac7cd9-6884-4a85-9179-078009bbc268",
+											"fieldType": "sap.ui.layout.form.SimpleForm",
+											"script": "",
+											"customComponent": false,
+											"bindingValue": "API truck_drivers_details>truck_drivers_details",
+											"bindingType": "u",
+											"bindingSource": "API",
+											"bindingParentID": "765BFFE2-224B-EE11-9937-0022489A57C0",
+											"bindingPathID": "d74b93a8-96cc-4a62-afe6-fce113673015",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "ff67953f-7204-469b-d498-376074863b4c",
+													"fieldName": "lblSimpleFormfirst_name",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "First Name",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "989dcaca-97be-4279-d2d6-50591f07d354",
+													"fieldName": "inSimpleFormfirst_name",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Input",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "{/first_name}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "f4f50d5d-9858-4f5e-9995-7d73eabd714f",
+													"fieldName": "lblSimpleFormlast_name",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Last Name",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "e145fe73-4587-4427-d7e0-dae425d02dc3",
+													"fieldName": "inSimpleFormlast_name",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Input",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "{/last_name}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "8c5d8879-9227-45cc-abf9-12e19d3c38f9",
+													"fieldName": "lblSimpleFormplate_no",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Plate Number",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "ca96c692-7086-4803-850d-e29f93d15cab",
+													"fieldName": "inSimpleFormplate_no",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Input",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "{/plate_no}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "35396207-5612-443b-839f-21a439689afb",
+													"fieldName": "lblSimpleFormcustomer_name",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Customer Name",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "a371d4a2-21c0-49ee-cf1e-637e887ed196",
+													"fieldName": "inSimpleFormcustomer_name",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Input",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "value",
+															"grouping": "Properties",
+															"value": "{/customer_name}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "488c50d8-6efe-49a9-c1b5-731d45fdb76a",
+													"fieldName": "lblSimpleFormcustomer_class",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "sap.m.Label",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Customer Class",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
+													"fieldNo": "063c6b20-268c-4149-ef52-51f46b5e4f8f",
+													"fieldName": "oSelectClass",
+													"fieldParent": "0d38b957-544e-4854-d1f4-a2d0e4da7294",
+													"fieldType": "nep.bootstrap.Select",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [],
+													"data": [
+														{
+															"fieldNo": "36e88e25-ea5c-48ad-801b-38a3f5cd90ce",
+															"fieldName": "Item",
+															"fieldParent": "063c6b20-268c-4149-ef52-51f46b5e4f8f",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [],
+															"data": []
+														},
+														{
+															"fieldNo": "87173524-e120-4e62-fc6c-932714299df5",
+															"fieldName": "Item1",
+															"fieldParent": "063c6b20-268c-4149-ef52-51f46b5e4f8f",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Basic",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "BASIC",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														},
+														{
+															"fieldNo": "1d650dc7-97c1-44a5-8900-04a8bc6a0a35",
+															"fieldName": "Item2",
+															"fieldParent": "063c6b20-268c-4149-ef52-51f46b5e4f8f",
+															"fieldType": "sap.ui.core.Item",
+															"script": "",
+															"customComponent": false,
+															"request": [],
+															"response": [],
+															"attributes": [
+																{
+																	"attribute": "text",
+																	"grouping": "Properties",
+																	"value": "Premium",
+																	"script": "",
+																	"translation": []
+																},
+																{
+																	"attribute": "key",
+																	"grouping": "Properties",
+																	"value": "PREMIUM",
+																	"script": "",
+																	"translation": []
+																}
+															],
+															"data": []
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"fieldNo": "813a1a2c-32ef-4aae-b6bc-a78c2c345bde",
+									"fieldName": "Footer",
+									"fieldParent": "11f48c74-7abc-49c5-ed85-0a917c49f7f1",
+									"fieldType": "nep.bootstrap.ModalContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Properties",
+											"value": "Footer",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "47fc6421-66de-42d1-8f35-e13b8852cd47",
+											"fieldName": "ButtonCreateUser",
+											"fieldParent": "813a1a2c-32ef-4aae-b6bc-a78c2c345bde",
+											"fieldType": "nep.bootstrap.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/nep.bootstrap.Button/ButtonCreateUser/press.script",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Create User",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "borderRadius",
+													"grouping": "Properties",
+													"value": "RoundedPill",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "contextColor",
+													"grouping": "Properties",
+													"value": "Success",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "ebe296c5-df91-4ac3-df84-7a74ffa83f98",
+											"fieldName": "ButtonCloseModal",
+											"fieldParent": "813a1a2c-32ef-4aae-b6bc-a78c2c345bde",
+											"fieldType": "nep.bootstrap.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "ModalCreateUser.hide();",
+													"script": "ModalCreateUser.hide();",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://sys-cancel",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Cancel",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "borderRadius",
+													"grouping": "Properties",
+													"value": "RoundedPill",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "contextColor",
+													"grouping": "Properties",
+													"value": "Danger",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						},
 						{
 							"fieldNo": "f354a289-acda-4abf-87ce-1fa8fb411803",
 							"fieldName": "oDialogUpdate",
@@ -1033,8 +1658,8 @@
 												{
 													"attribute": "press",
 													"grouping": "Events",
-													"value": "oDialogUpdate.close()",
-													"script": "oDialogUpdate.close()",
+													"value": "oDialog.close()",
+													"script": "oDialog.close()",
 													"translation": []
 												}
 											],
@@ -2367,7 +2992,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.5.1839",
+	"ver": "23.10.5.1739",
 	"application": "demo_webpush_adminapp",
 	"title": "Admin App",
 	"description": "Admin App: Monitor facility usage",
@@ -2406,7 +3031,14 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
+	"generateVersionOnActivation": true,
+	"activationHistoryCount": 5,
 	"apis": [
+		{
+			"id": "765bffe2-224b-ee11-9937-0022489a57c0",
+			"name": "API truck_drivers_details",
+			"ver": "23.9.28.1246"
+		},
 		{
 			"id": "154b52b9-4e4d-ee11-9937-0022489a57c0",
 			"name": "API manage_facility_usage_admin",

@@ -38,7 +38,7 @@
 								{
 									"attribute": "title",
 									"grouping": "Properties",
-									"value": "Item Usage Details",
+									"value": "Driver App",
 									"script": "",
 									"translation": []
 								},
@@ -63,26 +63,19 @@
 									"attributes": [],
 									"data": [
 										{
-											"fieldNo": "b80daa86-77cb-428e-e7a9-8b46883c61b9",
-											"fieldName": "Text6",
+											"fieldNo": "88b2a7dc-d8d8-4eb6-da72-13babd090099",
+											"fieldName": "HBox1",
 											"fieldParent": "db3d97a4-2a85-40e1-9ced-3d20698ef7f3",
-											"fieldType": "nep.bootstrap.Text",
+											"fieldType": "sap.m.HBox",
 											"script": "",
 											"customComponent": false,
 											"request": [],
 											"response": [],
 											"attributes": [
 												{
-													"attribute": "text",
+													"attribute": "justifyContent",
 													"grouping": "Properties",
-													"value": "Scan to Join Queue",
-													"script": "",
-													"translation": []
-												},
-												{
-													"attribute": "type",
-													"grouping": "Properties",
-													"value": "Heading5",
+													"value": "End",
 													"script": "",
 													"translation": []
 												}
@@ -128,7 +121,7 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Enable Notification",
+															"value": "Scan to Join Queue",
 															"script": "",
 															"translation": []
 														},
@@ -270,18 +263,6 @@
 																	],
 																	"data": [
 																		{
-																			"fieldNo": "76f10c82-4445-4118-d15a-650632eab1af",
-																			"fieldName": "Text",
-																			"fieldParent": "92077bca-6870-40c5-ac91-c533f6f20802",
-																			"fieldType": "nep.bootstrap.Text",
-																			"script": "",
-																			"customComponent": false,
-																			"request": [],
-																			"response": [],
-																			"attributes": [],
-																			"data": []
-																		},
-																		{
 																			"fieldNo": "e62078d6-669d-4dcd-82f1-55a06f3fa4cc",
 																			"fieldName": "VBox",
 																			"fieldParent": "92077bca-6870-40c5-ac91-c533f6f20802",
@@ -328,6 +309,41 @@
 																				}
 																			],
 																			"data": [
+																				{
+																					"fieldNo": "69c60ec1-2ade-40cd-a760-4d67d1ca7b1b",
+																					"fieldName": "notificationBtn1",
+																					"fieldParent": "e62078d6-669d-4dcd-82f1-55a06f3fa4cc",
+																					"fieldType": "nep.bootstrap.Button",
+																					"script": "",
+																					"customComponent": false,
+																					"request": [],
+																					"response": [],
+																					"attributes": [
+																						{
+																							"attribute": "press",
+																							"grouping": "Events",
+																							"value": "Anonymous Function",
+																							"script": "file://event/nep.bootstrap.Button/notificationBtn1/press.js",
+																							"language": "javascript",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "text",
+																							"grouping": "Properties",
+																							"value": "Join queue",
+																							"script": "",
+																							"translation": []
+																						},
+																						{
+																							"attribute": "contextColor",
+																							"grouping": "Properties",
+																							"value": "Primary",
+																							"script": "",
+																							"translation": []
+																						}
+																					],
+																					"data": []
+																				},
 																				{
 																					"fieldNo": "36267ad3-d698-4dfe-e4c4-8892c7ef71b8",
 																					"fieldName": "ButtonScanQR",
@@ -378,261 +394,6 @@
 																							"attribute": "contextColor",
 																							"grouping": "Properties",
 																							"value": "Warning",
-																							"script": "",
-																							"translation": []
-																						}
-																					],
-																					"data": []
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	"fieldNo": "077a3464-bccf-4c80-e283-6ac3ab6e4219",
-																	"fieldName": "VBox6",
-																	"fieldParent": "cca43872-fa30-49fa-b833-cd8cb8e5ddf5",
-																	"fieldType": "sap.m.VBox",
-																	"script": "",
-																	"customComponent": false,
-																	"disabled": true,
-																	"request": [],
-																	"response": [],
-																	"attributes": [
-																		{
-																			"attribute": "styleClassMargin",
-																			"grouping": "Properties",
-																			"value": "sapUiMediumMarginEnd",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "justifyContent",
-																			"grouping": "Properties",
-																			"value": "Start",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "alignItems",
-																			"grouping": "Properties",
-																			"value": "Center",
-																			"script": "",
-																			"translation": []
-																		},
-																		{
-																			"attribute": "alignContent",
-																			"grouping": "Properties",
-																			"value": "Center",
-																			"script": "",
-																			"translation": []
-																		}
-																	],
-																	"data": [
-																		{
-																			"fieldNo": "9276ed2c-eeb8-4f01-a7bf-2fd5285bb1f0",
-																			"fieldName": "Text13",
-																			"fieldParent": "077a3464-bccf-4c80-e283-6ac3ab6e4219",
-																			"fieldType": "nep.bootstrap.Text",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "text",
-																					"grouping": "Properties",
-																					"value": "Queue Size",
-																					"script": "",
-																					"translation": []
-																				}
-																			],
-																			"data": []
-																		},
-																		{
-																			"fieldNo": "54b29ab1-8982-43bf-c646-fd5e749f7333",
-																			"fieldName": "VBox7",
-																			"fieldParent": "077a3464-bccf-4c80-e283-6ac3ab6e4219",
-																			"fieldType": "sap.m.VBox",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "styleClassMargin",
-																					"grouping": "Properties",
-																					"value": "sapUiTinyMarginBottom",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "styleClass",
-																					"grouping": "Properties",
-																					"value": "smallerBox",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "renderType",
-																					"grouping": "Properties",
-																					"value": "Bare",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "justifyContent",
-																					"grouping": "Properties",
-																					"value": "Center",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "direction",
-																					"grouping": "Properties",
-																					"value": "Row",
-																					"script": "",
-																					"translation": []
-																				}
-																			],
-																			"data": [
-																				{
-																					"fieldNo": "5888b546-fb51-4b87-8747-250e4ca7160a",
-																					"fieldName": "TextCurrentSize",
-																					"fieldParent": "54b29ab1-8982-43bf-c646-fd5e749f7333",
-																					"fieldType": "nep.bootstrap.Text",
-																					"script": "",
-																					"customComponent": false,
-																					"disabled": true,
-																					"request": [],
-																					"response": [],
-																					"attributes": [
-																						{
-																							"attribute": "text",
-																							"grouping": "Properties",
-																							"value": "0",
-																							"script": "",
-																							"translation": []
-																						},
-																						{
-																							"attribute": "fontSize",
-																							"grouping": "Properties",
-																							"value": "FontSize3",
-																							"script": "",
-																							"translation": []
-																						}
-																					],
-																					"data": []
-																				}
-																			]
-																		}
-																	]
-																},
-																{
-																	"fieldNo": "12ad41f7-9432-45a1-d17e-03f330d291b5",
-																	"fieldName": "VBox5",
-																	"fieldParent": "cca43872-fa30-49fa-b833-cd8cb8e5ddf5",
-																	"fieldType": "sap.m.VBox",
-																	"script": "",
-																	"customComponent": false,
-																	"disabled": true,
-																	"request": [],
-																	"response": [],
-																	"attributes": [],
-																	"data": [
-																		{
-																			"fieldNo": "6080e569-a3a1-407c-8f85-4e0748bbd4d3",
-																			"fieldName": "Text10",
-																			"fieldParent": "12ad41f7-9432-45a1-d17e-03f330d291b5",
-																			"fieldType": "nep.bootstrap.Text",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "text",
-																					"grouping": "Properties",
-																					"value": "Position on the Queue",
-																					"script": "",
-																					"translation": []
-																				}
-																			],
-																			"data": []
-																		},
-																		{
-																			"fieldNo": "5a8ca474-e718-4ad3-9931-3f5e2dc56248",
-																			"fieldName": "VBox4",
-																			"fieldParent": "12ad41f7-9432-45a1-d17e-03f330d291b5",
-																			"fieldType": "sap.m.VBox",
-																			"script": "",
-																			"customComponent": false,
-																			"disabled": true,
-																			"request": [],
-																			"response": [],
-																			"attributes": [
-																				{
-																					"attribute": "styleClassMargin",
-																					"grouping": "Properties",
-																					"value": "sapUiTinyMarginBottom",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "styleClass",
-																					"grouping": "Properties",
-																					"value": "smallerBox",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "renderType",
-																					"grouping": "Properties",
-																					"value": "Bare",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "justifyContent",
-																					"grouping": "Properties",
-																					"value": "Center",
-																					"script": "",
-																					"translation": []
-																				},
-																				{
-																					"attribute": "direction",
-																					"grouping": "Properties",
-																					"value": "Row",
-																					"script": "",
-																					"translation": []
-																				}
-																			],
-																			"data": [
-																				{
-																					"fieldNo": "d539a808-f39e-4326-c80c-ac0864c5434c",
-																					"fieldName": "TextCurrentPosition",
-																					"fieldParent": "5a8ca474-e718-4ad3-9931-3f5e2dc56248",
-																					"fieldType": "nep.bootstrap.Text",
-																					"script": "",
-																					"customComponent": false,
-																					"disabled": true,
-																					"request": [],
-																					"response": [],
-																					"attributes": [
-																						{
-																							"attribute": "text",
-																							"grouping": "Properties",
-																							"value": "0",
-																							"script": "",
-																							"translation": []
-																						},
-																						{
-																							"attribute": "fontSize",
-																							"grouping": "Properties",
-																							"value": "FontSize3",
 																							"script": "",
 																							"translation": []
 																						}
@@ -967,14 +728,14 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.5.1658",
+	"ver": "23.10.5.1748",
 	"application": "demo_webpush_driverapp",
 	"title": "",
 	"description": "Truck Drivers App",
 	"enableFileStorage": false,
 	"enableManifest": false,
 	"enableStylesheet": true,
-	"enableObfuscate": true,
+	"enableObfuscate": false,
 	"onlyRunLaunchpad": false,
 	"disabled": false,
 	"loadLaunchpadCode": null,
@@ -1006,11 +767,13 @@
 	"compilerTarget": 3,
 	"tabWidth": null,
 	"printWidth": null,
+	"generateVersionOnActivation": true,
+	"activationHistoryCount": 5,
 	"apis": [
 		{
 			"id": "443fc4a3-5742-ee11-b8f0-002248a2f7be",
 			"name": "Web Push Notification Script Apis",
-			"ver": "23.10.5.1448"
+			"ver": "23.10.5.1618"
 		},
 		{
 			"id": "154b52b9-4e4d-ee11-9937-0022489a57c0",

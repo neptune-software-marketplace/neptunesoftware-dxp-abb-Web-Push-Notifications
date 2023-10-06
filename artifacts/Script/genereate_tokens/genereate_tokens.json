@@ -1,31 +1,25 @@
 {
-	"id": "240f0c96-3c59-ee11-9937-0022489a57c0",
-	"createdAt": "2023-09-22T11:38:45.540Z",
-	"createdBy": "emmanuella.ndukwe@neptune-software.com",
+	"id": "ec351307-8b63-ee11-9937-000d3ade8894",
+	"createdAt": "2023-10-05T14:25:27.573Z",
+	"createdBy": "qateam",
 	"globalScripts": [],
 	"externalModules": [
 		{
-			"id": "2BEE183C-1E47-EE11-B8F0-002248A2F7BE",
+			"id": "1E0D9B92-6263-EE11-9937-000D3ADE8894",
 			"name": "web-push",
 			"contextname": "webpush",
 			"path": "/home/planet9/ext-disk/npm-serverscript/node_modules/web-push"
 		}
 	],
-	"entitySets": [
-		{
-			"id": "E2230BCC-4C58-EE11-9937-0022489A57C0",
-			"name": "push_subscription_register",
-			"contextname": "push_subscription_register"
-		}
-	],
+	"entitySets": [],
 	"apis": [],
-	"name": "notify_driver_webpush",
-	"ver": "23.10.5.1621",
+	"name": "genereate_tokens",
+	"ver": "23.10.5.1430",
 	"description": null,
 	"content": "file:///content.js",
 	"useAsGlobalScript": false,
 	"transpiledContent": null,
-	"lastRunSuccessful": false,
+	"lastRunSuccessful": true,
 	"isTypescript": false,
 	"language": "javascript",
 	"jsscriptGroup": "a167598c-a442-ee11-b8f0-002248a2f7be",
