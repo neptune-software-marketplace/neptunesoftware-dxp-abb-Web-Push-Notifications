@@ -4,7 +4,9 @@
 	"createdBy": "emmanuella.ndukwe@neptune-software.com",
 	"extUserRoles": [],
 	"extUserDepartments": [],
-	"catOrder": [],
+	"catOrder": [
+		"57a5c9f6-a389-eb11-85aa-0003ff1e43fb"
+	],
 	"layout": [],
 	"config": {
 		"enhancement": ""
@@ -13,7 +15,7 @@
 	"name": "demo push notification",
 	"title": "Driver App",
 	"description": null,
-	"startApp": "demo_webpush_driverapp",
+	"startApp": "",
 	"startWebApp": null,
 	"customLogo": null,
 	"launchpadApp": "planet9_launchpad_standard",
@@ -47,7 +49,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "23.9.28.1334",
+	"ver": "23.10.5.1044",
 	"pwa_enable": true,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -58,5 +60,12 @@
 	"passwordResetEmail": null,
 	"activationCodeEmail": null,
 	"package": "ec25aec2-f55d-ee11-9937-0022489e2e97",
-	"cat": []
+	"cat": [
+		{
+			"id": "57a5c9f6-a389-eb11-85aa-0003ff1e43fb",
+			"name": "Demo Tile Group",
+			"title": "Applications",
+			"ver": "23.10.6.651"
+		}
+	]
 }

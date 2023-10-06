@@ -880,20 +880,6 @@
 					"attributes": [],
 					"data": [
 						{
-							"fieldNo": "f25ae064-6f32-424f-ba5d-2f7ec446df28",
-							"fieldName": "oAPIProcessSubscription",
-							"fieldParent": "38645000-1227-46a2-8b4f-81d9ee660307",
-							"fieldType": "neptune.restapi",
-							"script": "",
-							"customComponent": false,
-							"restSource": "6fb70da3-2543-ee11-b8f0-002248a2f7be",
-							"restOperation": "96480991-10be-4f36-ebb4-5a9b8c189ca2",
-							"request": [],
-							"response": [],
-							"attributes": [],
-							"data": []
-						},
-						{
 							"fieldNo": "1317e963-28e1-4216-f7a1-8a350670a2c0",
 							"fieldName": "oAPIRegister",
 							"fieldParent": "38645000-1227-46a2-8b4f-81d9ee660307",
@@ -981,7 +967,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "23.10.2.950",
+	"ver": "23.10.5.1658",
 	"application": "demo_webpush_driverapp",
 	"title": "",
 	"description": "Truck Drivers App",
@@ -1022,14 +1008,9 @@
 	"printWidth": null,
 	"apis": [
 		{
-			"id": "6fb70da3-2543-ee11-b8f0-002248a2f7be",
-			"name": "Update Item",
-			"ver": "23.9.5.137"
-		},
-		{
 			"id": "443fc4a3-5742-ee11-b8f0-002248a2f7be",
 			"name": "Web Push Notification Script Apis",
-			"ver": "23.9.28.1219"
+			"ver": "23.10.5.1448"
 		},
 		{
 			"id": "154b52b9-4e4d-ee11-9937-0022489a57c0",

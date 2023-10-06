@@ -7,7 +7,7 @@
 	},
 	"name": "Web Push Notification",
 	"description": null,
-	"ver": "23.9.28.1336",
+	"ver": "23.10.2.123",
 	"enableCICD": true,
 	"apps": [
 		{
@@ -24,12 +24,6 @@
 		}
 	],
 	"api": [
-		{
-			"id": "765bffe2-224b-ee11-9937-0022489a57c0",
-			"name": "API truck_drivers_details",
-			"description": null,
-			"apiGroup": null
-		},
 		{
 			"id": "443fc4a3-5742-ee11-b8f0-002248a2f7be",
 			"name": "Web Push Notification Script Apis",
@@ -54,11 +48,6 @@
 		{
 			"id": "2d9754a1-4e4d-ee11-9937-0022489a57c0",
 			"name": "manage_facility_usage_admin",
-			"description": "List of Truck drivers on the queue"
-		},
-		{
-			"id": "2d18eae6-214b-ee11-9937-0022489a57c0",
-			"name": "truck_drivers_details",
 			"description": "List of Truck drivers on the queue"
 		}
 	],
@@ -97,8 +86,20 @@
 	"reports": [],
 	"api_authentication": [],
 	"api_group": [],
-	"tile": [],
-	"category": [],
+	"tile": [
+		{
+			"id": "3c194f12-28c3-ed11-a8e0-000d3ada944e",
+			"description": null,
+			"name": "MYSIMPLEFIRSTAPP"
+		}
+	],
+	"category": [
+		{
+			"id": "57a5c9f6-a389-eb11-85aa-0003ff1e43fb",
+			"description": null,
+			"name": "Demo Tile Group"
+		}
+	],
 	"launchpad": [
 		{
 			"id": "96cd3d99-cf48-ee11-9937-0022489a57c0",

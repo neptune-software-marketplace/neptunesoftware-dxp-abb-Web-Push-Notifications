@@ -6,19 +6,6 @@
 	"endpoints": [],
 	"paths": [
 		{
-			"id": "3c99dfd5-9824-493c-8f8f-9ea133afc0f4",
-			"method": "GET",
-			"path": "/send_notification",
-			"description": "",
-			"parameters": [],
-			"headers": [],
-			"responses": [],
-			"content": [],
-			"auth": [],
-			"endpoints": [],
-			"serverScript": "e705f54e-5442-ee11-b8f0-002248a2f7be"
-		},
-		{
 			"id": "460b3b75-3e57-4053-aa10-8182b564f611",
 			"method": "POST",
 			"path": "/getPublicKey",
@@ -197,7 +184,7 @@
 	"documentation": [],
 	"name": "Web Push Notification Script Apis",
 	"endpoint": "/public/serverscript/webpushnotificationscriptapis",
-	"ver": "23.9.28.1219",
+	"ver": "23.10.5.1448",
 	"version": null,
 	"description": null,
 	"mediaType": null,

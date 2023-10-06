@@ -12,7 +12,7 @@ var options = {
     }
 };
 
-apioAPIUpdateDriverDetails(options);  
+
 modelSimpleForm1.setData({});
 
 sap.m.MessageToast.show("Sucessfully Updated!");

@@ -7,4 +7,4 @@ const data = context.getObject();
 console.log(data);
 selectedUser = data;
 modelSimpleForm1.setData(selectedUser)
-oDialog.open()
+oDialogUpdate.open()

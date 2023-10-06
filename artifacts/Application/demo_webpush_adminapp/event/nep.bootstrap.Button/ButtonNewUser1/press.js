@@ -1,2 +1,0 @@
-actionType = "CREATE"
-ModalCreateUser.show();
